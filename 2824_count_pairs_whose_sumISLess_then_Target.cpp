@@ -10,6 +10,7 @@ public:
         int hi = n - 1;
         int ct = 0;
         sort(v.begin(), v.end());
+        
         while (lo < hi)
         {
             if (v[lo] + v[hi] < t)
